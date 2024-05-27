@@ -380,5 +380,3 @@ check_package_installed
 check_iscsid
 check_multipathd
 check_mount_propagation
-
-exit 0
