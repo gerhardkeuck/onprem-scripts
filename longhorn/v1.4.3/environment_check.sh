@@ -166,7 +166,7 @@ spec:
       hostPID: true
       containers:
       - name: longhorn-environment-check
-        image: alpine:3.12
+        image: docker.io/library/alpine:3.12
         args: ["/bin/sh", "-c", "sleep 1000000000"]
         volumeMounts:
         - name: mountpoint
